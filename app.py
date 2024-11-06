@@ -30,7 +30,6 @@ def webhook():
     # How can we start our Apify actor with this data?
 
     # For now, we'll just print the parsed data
-    print(f"Keywords: {keywords}, Location: {location}, Company Size: {company_size}")
 
     # Return a success message
     return jsonify({"status": "success"}), 200
